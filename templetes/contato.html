@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/contato.css">
+    <title>Contato</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Entre em Contato</h1>
+
+        <p>Preencha os campos abaixo para enviar sua mensagem.</p>
+
+        <form id="formContato">
+            <input type="text" id="nome" placeholder="Seu nome" required>
+
+            <input type="email" id="email" placeholder="Seu e-mail" required>
+
+            <textarea id="mensagem" placeholder="Digite sua mensagem" required></textarea>
+
+            <button type="submit">Enviar mensagem</button>
+        </form>
+
+        <p id="resultado"></p>
+
+        <a href="/">Voltar para a Home</a>
+    </div>
+
+    <script src="/js/contato.js"></script>
+</body>
+</html>

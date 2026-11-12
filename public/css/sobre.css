@@ -1,0 +1,46 @@
+body {
+    background-color: #DFDFDF;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+}
+
+.container {
+    max-width: 700px;
+    margin: 40px auto;
+}
+
+h1 {
+    color: #333;
+    margin-bottom: 30px;
+}
+
+.card {
+    background-color: white;
+    padding: 25px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 3px 8px #00000020;
+}
+
+.card h2 {
+    color: #444;
+}
+
+.card p {
+    color: #666;
+    line-height: 1.6;
+}
+
+a {
+    display: inline-block;
+    background-color: #444;
+    color: white;
+    text-decoration: none;
+    padding: 12px 20px;
+    border-radius: 6px;
+}
+
+a:hover {
+    background-color: #666;
+}
